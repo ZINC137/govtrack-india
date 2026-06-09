@@ -1,6 +1,6 @@
 # GovTrack India
 
-GovTrack India is a production-oriented full-stack starter for a personalized Indian government jobs and exam tracking platform.I built it using Codex.
+GovTrack India is a production-oriented full-stack starter for a personalized Indian government jobs and exam tracking platform.Built using Codex for rapid full-stack development and prototyping.
 
 ## Stack
 
@@ -8,6 +8,16 @@ GovTrack India is a production-oriented full-stack starter for a personalized In
 - Backend: FastAPI, SQLAlchemy, JWT auth, rule-based eligibility engine
 - Database: PostgreSQL, with SQLite fallback for quick backend starts
 - Deployment: Vercel frontend, Railway/Render backend
+
+## Getting Started
+
+```bash
+git clone https://github.com/ZINC137/govtrack-india.git
+cd govtrack-india
+cd frontend
+npm install
+npm run dev
+```
 
 ## Run Locally
 
@@ -37,7 +47,6 @@ uvicorn app.main:app --reload
 Frontend-only quick start:
 
 ```bash
-brew install node
 cd frontend
 npm install
 npm run dev
