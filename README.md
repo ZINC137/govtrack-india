@@ -1,6 +1,6 @@
 # GovTrack India
 
-GovTrack India is a production-oriented full-stack starter for a personalized Indian government jobs and exam tracking platform.
+GovTrack India is a production-oriented full-stack starter for a personalized Indian government jobs and exam tracking platform.I built it using Codex.
 
 ## Stack
 
@@ -18,6 +18,11 @@ docker compose up --build
 Frontend: `http://localhost:3000`
 Backend: `http://localhost:8000`
 API docs: `http://localhost:8000/docs`
+
+## Shut Down
+```bash
+docker compose down
+```
 
 Backend-only quick start:
 
@@ -47,10 +52,6 @@ npm run dev
 - Seed data for SSC, Railways, Banking, UPSC Engineering Services, and PSU recruitment
 - Dockerfiles, Compose setup, schema documentation, API reference, and deployment guide
 
-## Demo Credentials
-
-- Candidate: `demo@govtrack.in` / `Demo@12345`
-- Admin seed: `admin@govtrack.in` / `Admin@12345`
 
 ## Notes
 
